@@ -2,8 +2,45 @@
 
     --background-color: beige;
     --font-family: 'Amatic SC', cursive;
-    --gap:  20px;
+    --gap:  5px;
     --padding: 0%;
     --margin: 0%;
 
 }
+main{
+    width: 100%;
+}
+
+body{
+    margin: var(--margin);
+    padding: var(--padding);
+    background-color: var(--background-color);
+    display: flex;
+    padding: 0;
+    font-family: var(--font-family);
+}
+.header{
+    width: 100vw;
+    height: ;
+    border-bottom: solid black 2px;
+    background-color: var(--background-color);
+}
+.--headertext{
+    color: solid black ;
+    text-align: center;
+    font-family: var(--font-family);
+}
+.question-cards{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: var(--gap);
+}
+.card{
+    justify-items: center;
+    width : 400px;
+    height: 300px;
+    border: 1px solid black;
+    border-radius: 8px;
+}
+.
