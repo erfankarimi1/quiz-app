@@ -1,0 +1,39 @@
+.profile-header {
+  display: flex;
+  text-align: center;
+  padding-top: 18%;
+  border: 2px solid black; 
+}
+.profile-picture {
+  width: 100px;
+  height: 100px;
+  padding: 20px;
+  border: 2px solid black;
+  border-radius: 50%;
+  background-color: white;  
+}
+.img-container {
+
+  width: 40%;
+}
+.about-me {
+  padding-right: 100px;
+  padding-left: 100px;
+}
+.aboutme-text {
+  border: 2px solid black;
+  height: 150px;
+  background-color: white;
+}
+
+.settings-row {
+
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.setting-name {
+  display: flex;
+  align-items: center;
+
+}

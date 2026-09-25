@@ -1,0 +1,79 @@
+.bookmarks-page .header {
+  width: 100vw;
+  border-bottom: solid black 2px;
+  background-color: var(--background-color);
+}
+
+.bookmarks-page .headertext {
+  color: var(--text-color);
+  text-align: center;
+  font-family: var(--font-family);
+}
+
+.bookmarks-page .question-cards {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--gap);
+  padding-top: 50px;
+}
+
+.bookmarks-page .card {
+  display: flex;
+  position: relative;
+  width: 500px;
+  height: 400px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  border: 1px solid black;
+  border-radius: 8px;
+  background-color: white;
+}
+
+.bookmarks-page .bookmark {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+.bookmarks-page .bookmark:hover img {
+  transform: scale(1.15);
+}
+
+.bookmarks-page .question {
+  display: flex;
+  align-self: center;
+}
+
+.bookmarks-page .show-answer {
+  padding: 14px 35px;
+  border: 1px solid black;
+  border-radius: 10px;
+  font-size: 1.2rem;
+}
+
+.bookmarks-page .show-answer:hover {
+  color: white;
+  background-color: #040A01;
+  cursor: pointer;
+}
+
+.bookmarks-page .answers {
+  display: flex;
+  gap: var(--gap);
+}
+
+.bookmarks-page .answers span {
+  padding: 5px 12px;
+  border: 1px solid black;
+  border-radius: 15px;
+  color: var(--text-color);
+  background-color: white;
+}
+
+.bookmarks-page .answers span:hover {
+  color: white;
+  background-color: #040A01;
+  cursor: pointer;
+}
